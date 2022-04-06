@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DB">
+    <Position X="17.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABAAAAIAAAACACRCAAAAAAACARGBABA=</HashCode>
+      <FileName>DB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jocuri">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAABAAAAAAAAABAAgAAAAAAAAAAAAAIEAgBQAAA=</HashCode>
+      <FileName>Jocuri.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="User">
+    <Position X="19.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQHFACAAIAAEAIAgAAAAAQEAAAEAAAACAQAAAgACIAA=</HashCode>
+      <FileName>User.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IRequest">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="IRequest::Factory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>IRequest.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRequest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestLogin">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAAAAAAAAACACEAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>RequestLogin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utile">
+    <Position X="17.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestRegister">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAEACAAAAAAAgAAAAACEAEAAAAAACAAAAAgAAIAA=</HashCode>
+      <FileName>RequestRegister.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestJocDescriere">
+    <Position X="13.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAAACAAAAAAACAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>RequestJocDescriere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestADDFriend">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAAAABAACAAACAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>RequestADDFriend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestDeleteFriend">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAEACAAAAAAAAACAAACAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>RequestDeleteFriend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestGetAllFriends">
+    <Position X="11.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQCAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>RequestGetAllFriends.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestTop">
+    <Position X="15.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAAAAAAAAAAACAAAAAAAAIAAAAACAAAAAA=</HashCode>
+      <FileName>RequestTop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RequestAllTops">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestAllTops.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

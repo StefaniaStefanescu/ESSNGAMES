@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>507</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ESSNGAMES-Login and Register System</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resurse.qrc">
+    <normaloff>:/imagini/login.png</normaloff>:/imagini/login.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#centralwidget{
+	border-image: url(:/imagini/b4.jpg);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_log">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>140</y>
+      <width>211</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_log{
+color:white;
+background-color:#27a9e3;
+border-width:0px;
+border-radius:4px
+}
+#pushButton_log:hover{
+background-color:#66c011;
+}</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_reg">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>250</y>
+      <width>211</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_reg{
+color:white;
+background-color:#27a9e3;
+border-width:0px;
+border-radius:4px
+}
+#pushButton_reg:hover{
+background-color:#66c011;
+}</string>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_ops">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>80</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_ops{
+color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>  Options</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resurse.qrc"/>
+ </resources>
+ <connections/>
+</ui>

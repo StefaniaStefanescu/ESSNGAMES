@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/imagini">
+        <file>b1.jpg</file>
+        <file>b3.jpg</file>
+        <file>b4.jpg</file>
+        <file>back2.jpg</file>
+        <file>background.jpg</file>
+        <file>bkg3.jpg</file>
+        <file>cheie2.jpg</file>
+        <file>h2.jpg</file>
+        <file>header.jpg</file>
+        <file>login logo.png</file>
+        <file>login.png</file>
+        <file>login_icon.jpeg</file>
+        <file>mwuser.png</file>
+        <file>spaceinv.jpg</file>
+        <file>choose.png</file>
+        <file>spaceinv2.png</file>
+        <file>flappybird.jpg</file>
+        <file>snake.jpg</file>
+        <file>mario.jpg</file>
+        <file>../../../../../../exesnake2/snake.exe</file>
+        <file>../../../../../../exespaceinv2/SpaceInvaders.exe</file>
+        <file>../../../../../../exemario2/gameMainWindow.exe</file>
+        <file>../../../../../../exeflappybird2/FlappyBird.exe</file>
+        <file>sudokuim.jpg</file>
+        <file>../../../../../../sudokuexe2/Sudoku.exe</file>
+        <file>tetrisim.jpg</file>
+        <file>../../../../../../tetrisexe2/QtTetris.exe</file>
+    </qresource>
+    <qresource prefix="/jocuri"/>
+    <qresource prefix="/">
+        <file>../InfoJocuri/infoflappybird.txt</file>
+        <file>../InfoJocuri/infomario.txt</file>
+        <file>../InfoJocuri/infosnake.txt</file>
+        <file>../InfoJocuri/infospaceinvaders.txt</file>
+        <file>../InfoJocuri/infosudoku.txt</file>
+        <file>../InfoJocuri/infotetris.txt</file>
+    </qresource>
+</RCC>

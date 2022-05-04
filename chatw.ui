@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chatw</class>
+ <widget class="QDialog" name="chatw">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#chatw{
+
+	border-image: url(:/imagini/background.jpg);
+}</string>
+  </property>
+  <widget class="QGroupBox" name="chatgb">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>421</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#chatgb{
+	background-color: rgb(255, 85, 127);
+
+}</string>
+   </property>
+   <property name="title">
+    <string>Chat</string>
+   </property>
+   <widget class="QListWidget" name="chatlist">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>391</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#chatlist{
+	background-color: rgb(255, 255, 255);
+   color:black;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="message">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#message{
+color:black;
+	background-color: rgb(255, 255, 255);
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sendpb">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>540</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#sendpb{
+color:white;
+background-color: rgb(170, 0, 127);
+border-width:0px;
+border-radius:4px;
+}
+#sendpb:hover{
+background-color: rgb(170, 7, 56);
+border-width:0px;
+border-radius:2px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Send</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
